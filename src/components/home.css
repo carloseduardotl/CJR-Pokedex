@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cornsilk;
+}
+
+.content {
+    display: flex;
+    border-radius: 25px;
+    width: 80%;
+    height: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 100%;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.title-welcome {
+    color: cornsilk;
+}
+
+.title-account {
+    color: rgb(238, 186, 53);
+}
+
+.description {
+    font-size: 50%;
+    font-weight: 300;
+    color: rgb(238, 186, 53);
+}
+.first-column {
+    text-align: center;
+    flex: 1 0 auto;
+    background-color: rgb(238, 186, 53);
+}
+
+.second-column {
+    text-align: center;
+    flex: 2 0 auto;
+    background-color: rgb(76, 49, 255);
+}
+
+.form {
+    flex-direction: column;
+    width: 55%;
+    height: 25%;
+}
+
+.imagem1 {
+    height: 32%;
+    width: 32%;
+}
+
+.imagem2 {
+    height: 16%;
+    width: 24%;
+}
+
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: rgb(238, 186, 53);
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 50px;
+    border: 1px solid cornsilk;
+}
+
+.btn:hover {
+    background-color: rgb(238, 186, 53);
+    color: rgb(76, 49, 255);
+}
+
+form input {
+    height: 20%;
+    border-radius: 15px;
+}
+

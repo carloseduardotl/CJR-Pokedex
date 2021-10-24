@@ -1,5 +1,5 @@
 import './App.css';
-import * as api from './Components/api';
+import * as api from './components/api';
 
 function App() {
 
