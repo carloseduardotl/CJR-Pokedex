@@ -1,11 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import * as api from './Components/api';
 
 function App() {
+
+
+
+
+/*     api.getUser('cadu1')
+    .then(function (response){
+        console.log(response.data)
+    }) */
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
