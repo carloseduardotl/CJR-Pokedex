@@ -4,7 +4,7 @@ import * as api from './api.js'
 function Home(){
 
     function pokemon(pokemon, user){
-        api.getPokemon('ghdsk')
+        api.getPokemon(pokemon)
         .then(function (response){
             console.log(response.data);
         })
