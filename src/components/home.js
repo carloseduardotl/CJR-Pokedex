@@ -7,30 +7,6 @@ import pokelogo from '../assets/Logo_do_Pokemon.png'
 
 function Home(){
 
-    function pokemon(pokemon, user){
-        api.getPokemon(pokemon)
-        .then(function (response){
-            console.log(response.data);
-        })
-        .catch(function (err){
-            console.log(err)
-        })
-    }
-
-    function removeFav(pokemon, user){
-        api.deleteFav('cadu1', 'pikachu')
-        .then(function (response){
-            //console.log(response.data);
-        })
-        .catch(function (err){
-            console.log(err)
-        })
-    }
-
-    function cadastro(user){
-        api.createUser(user)
-    }
-
     return (
        <div>
             <div class="container">
