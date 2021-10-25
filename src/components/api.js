@@ -14,7 +14,14 @@ export const createUser = (username) => {
     .then(function (response){
     })
     .catch(function (err){
-        console.log('usuario ja existente')
+        //console.log('usuario ja existente')
+        getUser(username)
+        .then(function (response) {
+            console.log("usuario existente recebido")
+        })
+        .catch(function (err){
+            console.log("Espero que nunca chegue aqui :/")
+        })
     })
 }
 
